@@ -1,0 +1,8 @@
+prefix=/home/lyh/CLionProjects/catkin_ws/src/drivable/cmake-build-debug/devel
+
+Name: drivable
+Description: Description of drivable
+Version: 1.4.0
+Cflags: -I/home/lyh/CLionProjects/catkin_ws/src/drivable/include
+Libs: -L${prefix}/lib -lutils -lsensor_base -lsensor_odometry -lsensor_range -llog -lconfigfile -lscanmatcher -lgridfastsla
+Requires: 

@@ -1,0 +1,39 @@
+%YAML:1.0
+#camera parameters
+camera_offset:
+  top_offset   : 4
+  bit_offset   : 4
+  color_offset : 168
+  raw_height   : 952
+
+video_offset:
+  top_offset   : 5
+  bit_offset   : 0
+  color_offset : 168
+  raw_height   : 952
+
+image_size:
+  width  : 1828
+  height : 948
+
+video_loop_enable : true
+video_input_path  : "/data/AR0220_part0"
+
+intrinsic_list:
+  fpx : 2040.357143
+  fpy : 2040.357143
+  cx  : 908.0487
+  cy  : 473.8857
+
+#P1, P2, K1, K2, K3, K4, K5, K6
+distortion_list  : [0.0010, 0.00047, -0.1744, 1.2338, 5.2856, 0.2006, 0.9980, 6.8485]
+
+#6.20
+extrinsic_list:
+  extrinsic_pitch  :   0.8460118368935
+  extrinsic_yaw    : -91.6574438428267
+  extrinsic_roll   : -90.1748559090964
+  extrinsic_matrix : [ 0.0105, -0.9996,  0.0245,  0.051413,
+                       0.0212, -0.0243, -0.9995,  1.296238,
+                       0.9997,  0.0110,  0.0209, -1.767899,
+                            0,       0,       0,  1.000000]

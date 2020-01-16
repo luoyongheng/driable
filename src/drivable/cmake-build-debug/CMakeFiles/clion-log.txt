@@ -1,0 +1,29 @@
+/home/lyh/下载/clion-2019.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lyh/CLionProjects/catkin_ws/src/drivable
+-- Using CATKIN_DEVEL_PREFIX: /home/lyh/CLionProjects/catkin_ws/src/drivable/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/lyh/CLionProjects/catkin_ws/src/drivable/cmake-build-debug/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found Boost: /usr/include (found version "1.58.0")  
+-- Found Boost: /usr/include (found suitable version "1.58.0", minimum required is "1.40.0") found components:  system filesystem thread date_time iostreams serialization chrono atomic regex 
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- looking for PCL_COMMON
+-- looking for PCL_OCTREE
+-- looking for PCL_IO
+-- /usr/include/eigen3 /opt/ros/kinetic/include/opencv-3.3.1-dev;/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lyh/CLionProjects/catkin_ws/src/drivable/cmake-build-debug

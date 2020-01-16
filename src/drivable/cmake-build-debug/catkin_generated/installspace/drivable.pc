@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: drivable
+Description: Description of drivable
+Version: 1.4.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lutils -lsensor_base -lsensor_odometry -lsensor_range -llog -lconfigfile -lscanmatcher -lgridfastsla
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lyh/CLionProjects/catkin_ws/src/drivable/cmake-build-debug/devel/setup.sh
